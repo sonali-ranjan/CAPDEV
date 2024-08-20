@@ -1,0 +1,12 @@
+###
+# @name ReadBooks
+GET http://localhost:4004/odata/v4/my/Books
+
+###
+# @name createBooksRecord
+POST http://localhost:4004/odata/v4/my/Books
+Content-Type: application/json
+
+{
+"title": "ABC Book"
+}
